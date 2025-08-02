@@ -1,8 +1,23 @@
-# @processversion/api-wrapper
+# @mohammadelhsn/api-wrapper
 
-This is my first package! I made this simple project for my API just to get some experience with making packages.
+My first package project — a lightweight wrapper for my API, built to learn how to create, publish, and manage JavaScript packages.
 
-Example usage:
+> ⚠️ Heads up: This project is no longer maintained because the original API (hosted on Heroku) has been shut down.
+
+## Stack
+
+| Technology | Icon                                                               |
+| ---------- | ------------------------------------------------------------------ |
+| API        | ![Discord Bots](https://go-skill-icons.vercel.app/api/icons?i=api) |
+| NodeJS     | ![NodeJs](https://go-skill-icons.vercel.app/api/icons?i=nodejs)    |
+| TypeScript | ![TypeScript](https://go-skill-icons.vercel.app/api/icons?i=ts)    |
+| NPM        | ![NPM](https://go-skill-icons.vercel.app/api/icons?i=npm)          |
+| Axios      | ![Axios](https://go-skill-icons.vercel.app/api/icons?i=axios)      |
+
+## Example usage:
+
+<details>
+<summary>Click to show / hide</summary>
 
 - Javascript
 
@@ -115,3 +130,21 @@ const api = new API('API_KEY');
 ```js
 const {} = require('discord.js');
 ```
+
+</details>
+
+## Features
+
+- Simple and consistent interface to access my custom API
+- Supports all available endpoints of the API with easy-to-use methods
+- Handles authentication and request formatting automatically
+- Promise-based asynchronous calls for smooth integration
+- Built-in error handling with clear messages
+- Lightweight and minimal dependencies for fast performance
+- Designed to integrate easily with Discord bots or other JavaScript projects
+- Modular structure to allow easy updates and adding new endpoints
+- Basic usage examples and documentation included
+
+## Status
+
+🚫 Archived – This project is no longer actively developed or maintained. You're welcome to explore, fork, or build upon it for your own projects.
